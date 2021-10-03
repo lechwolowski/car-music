@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 
 
 class Model:
+
     def __init__(self, dataset_path, model_path=None) -> None:
         self.load_dataset(dataset_path=dataset_path)
         self.load_model(model_path=model_path)
