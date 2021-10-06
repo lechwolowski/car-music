@@ -14,6 +14,10 @@ pip install -r requirements.txt
 ```
 
 ```bash
+python -m dataset.data_preparation
+```
+
+```bash
 python -m main.py
 ```
 
