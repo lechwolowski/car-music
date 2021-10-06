@@ -13,6 +13,7 @@ to run locally do:
 pip install -r requirements.txt
 ```
 
+#### Create one-hot encoded dataset version
 ```bash
 python -m dataset.data_preparation
 ```
